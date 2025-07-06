@@ -58,7 +58,7 @@ color: white !important;
 														<tr>
 															<th scope="col">#</th>
 															<th scope="col">Event</th>
-															<th scope="col">category</th>
+															<th scope="col">Category</th>
                                                             <th scope="col">Event Date & Time</th>
                                                             <th scope="col">Total Registration</th>
 															<th scope="col">Last Updated</th>

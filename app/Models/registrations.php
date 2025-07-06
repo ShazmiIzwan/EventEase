@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+// Event registrations with student and event relationships
+
 class registrations extends Model
 {
     protected $table = 'registrations';

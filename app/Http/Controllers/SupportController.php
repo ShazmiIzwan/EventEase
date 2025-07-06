@@ -7,6 +7,8 @@ use App\Models\chats;
 use Carbon\Carbon;
 use App\Models\registrations;
 
+//Chat/messaging system between students and organizers
+
 class SupportController extends Controller
 {
     public function index(Request $request) {

@@ -15,6 +15,8 @@ use App\Models\registrations;
 use Mpdf\Mpdf;
 use Carbon\Carbon;
 
+// Organizer dashboard and event management interface
+
 class HomeOrganiserController extends Controller
 {
 

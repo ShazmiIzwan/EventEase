@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use Carbon\Carbon;
 
+// User authentication (login, register, logout)
+
 class AuthController extends Controller
 {
     /**

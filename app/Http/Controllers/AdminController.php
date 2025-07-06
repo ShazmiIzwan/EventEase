@@ -6,6 +6,8 @@ use App\Models\events;
 use App\Models\registrations;
 use DB;
 
+// Manages admin dashboard with statistics (total registrations, unique participants, event analytics)
+
 class AdminController extends Controller
 {
     public function index()

@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+// Event logistics and equipment tracking
+
 class Logistic extends Model
 {
     protected $table = 'logistics';

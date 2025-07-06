@@ -1,5 +1,7 @@
 <?php
 
+// Main application bootstrap file
+
 /*
 |--------------------------------------------------------------------------
 | Create The Application

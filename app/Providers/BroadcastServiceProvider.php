@@ -5,6 +5,8 @@ namespace App\Providers;
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\ServiceProvider;
 
+// Real-time broadcasting services
+
 class BroadcastServiceProvider extends ServiceProvider
 {
     /**

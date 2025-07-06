@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Logistic;
 use App\Models\events;
 
+//Manages event logistics (equipment, supplies, status tracking)
+
 class LogisticController extends Controller
 {
     public function index()

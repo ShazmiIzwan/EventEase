@@ -4,7 +4,9 @@ namespace App\Rules;
   
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\Hash;
-  
+
+// Custom validation rule for password changes
+
 class MatchOldPassword implements Rule
 {
     /**

@@ -7,6 +7,8 @@ use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rule;
 
+//User management functionality
+
 class UserController extends Controller
 {
     public function index()

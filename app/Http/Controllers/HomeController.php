@@ -8,6 +8,8 @@ use Carbon\Carbon;
 
 use Illuminate\Support\Facades\Hash; 
 
+// Student homepage with event listings and category filtering
+
 class HomeController extends Controller
 {
     public function index(){

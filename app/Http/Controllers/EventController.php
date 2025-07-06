@@ -10,6 +10,8 @@ use Mpdf\Mpdf;
 use App\Models\User;
 use Carbon\Carbon;
 
+// Core event management (create, edit, delete events, event registration, payment processing)s
+
 class EventController extends Controller
 {
     /**

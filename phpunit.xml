@@ -4,6 +4,7 @@
          bootstrap="vendor/autoload.php"
          colors="true"
 >
+<!-- PHPUnit testing framework configuration file. -->
     <testsuites>
         <testsuite name="Unit">
             <directory>tests/Unit</directory>

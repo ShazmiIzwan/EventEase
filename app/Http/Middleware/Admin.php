@@ -6,6 +6,8 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+// Restricts access to admin-only routes
+
 class Admin
 {
     /**

@@ -29,13 +29,13 @@ use App\Http\Middleware\Student;
 
 Route::group(['middleware' => ['guest']], function () {
 // Authentication
-Route::get('/', [AuthController::class, 'index'])
-//AUTH Admin
+Route::get('/', [AuthController::class, 'index']);
 
 //AUTH Customer
 Route::get('register-user', [AuthController::class, 'register']);
 Route::post('register-post', [AuthController::class, 'registerpost'])->name('register-post');
 Route::post('login-user', [AuthController::class, 'login'])->name('login');
+
 
 });
 

@@ -98,13 +98,13 @@
                                         <div class="col-12">
                                             <div class="form-group mt-4">
                                                 <label class="form-label">University Email*</label>
-                                                <input class="form-control h_50" type="email" name="email" placeholder="you@university.edu" value="{{ old('email') }}" required>
+                                                <input class="form-control h_50" type="email" name="email" placeholder="example@graduate.com" value="{{ old('email') }}" required>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group mt-4">
                                                 <label class="form-label">Phone Number*</label>
-                                                <input class="form-control h_50" type="tel" name="phone" placeholder="e.g., +60 12-345 6789" value="{{ old('phone') }}" required>
+                                                <input class="form-control h_50" type="tel" name="phone" placeholder="e.g., +60123456789" value="{{ old('phone') }}" required>
                                             </div>
                                         </div>
                                         <div class="col-12">

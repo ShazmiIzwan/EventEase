@@ -98,7 +98,7 @@
                             <div class="registration">
                                 <form action="login-user" method="POST" autocomplete="off">
                                     @csrf
-                                    <h2 class="registration-title">Sign in to Your Student Account</h2>
+                                    <h2 class="registration-title">Sign into Your Student Account</h2>
 
                                     @if($message = Session::get('error'))
                                     <div class="alert alert-danger alert-dismissible fade show" role="alert">

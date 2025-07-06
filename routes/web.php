@@ -27,29 +27,28 @@ use App\Http\Middleware\Student;
 |
 */
 
-// Route::group(['middleware' => ['guest']], function () {
-// // Authentication
-// Route::get('/', [AuthController::class, 'index']);
-
-// //AUTH Customer
-// Route::get('register-user', [AuthController::class, 'register']);
-// Route::post('register-post', [AuthController::class, 'registerpost'])->name('register-post');
-// Route::post('login-user', [AuthController::class, 'login'])->name('login');
-
-
-// });
-
 Route::group(['middleware' => ['guest']], function () {
-    // Show Login Form
-    Route::get('login-user', [AuthController::class, 'index'])->name('login');
+    // Authentication
+    Route::get('/', [AuthController::class, 'index'])->name('login');
 
-    // Process Login
-    Route::post('login-user', [AuthController::class, 'login']);
-
-    // Registration
+    //AUTH Customer
     Route::get('register-user', [AuthController::class, 'register']);
     Route::post('register-post', [AuthController::class, 'registerpost'])->name('register-post');
+    Route::post('login-user', [AuthController::class, 'login']);
+
 });
+
+// Route::group(['middleware' => ['guest']], function () {
+//     // Show Login Form
+//     Route::get('login-user', [AuthController::class, 'index'])->name('login');
+
+//     // Process Login
+//     Route::post('login-user', [AuthController::class, 'login']);
+
+//     // Registration
+//     Route::get('register-user', [AuthController::class, 'register']);
+//     Route::post('register-post', [AuthController::class, 'registerpost'])->name('register-post');
+// });
 
 
 Route::group(['middleware' => ['auth']], function () {
